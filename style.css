@@ -4,13 +4,37 @@ body {
     color: black;
 }
 
+.hero {
+    background-color: #1f2937;
+    padding: 0px;
+    margin: 0px;
+    font-size: 48px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .header {
-    background-color: #1F2937;
-    padding: 8px;
+    background-color: #1f2937;
+    padding: 0px;
     margin: 0px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.hero-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-info {
+    display: flex;
+}
+
+.hero-image {
+    display: flex;
 }
 
 .header-left-logo {
@@ -22,9 +46,9 @@ body {
 }
 
 .logo {
-    font-size: 48px;
+    font-size: 24px;
     font-weight: 900;
-    color: white;
+    color: #f9faf8;
     padding: 4px 32px;
   }
   
@@ -35,8 +59,8 @@ body {
   }
   
   a {
-    font-size: 22px;
-    color: white;
+    font-size: 18px;
+    color: #e5e7eb;
     padding: 8px;
     text-decoration: none;
   }
