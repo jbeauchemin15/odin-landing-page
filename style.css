@@ -48,6 +48,14 @@ body {
     display: flex;
 }
 
+.signup-button {
+    width: 10vw;
+    border-radius: 25px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
 .hero-image {
     color: #f9faf8;  /*remove this color later*/
     display: flex;
