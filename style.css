@@ -4,6 +4,7 @@ body {
     color: black;
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 button {
@@ -73,7 +74,7 @@ button {
     background-color: lightgray;
 }
 
-img {
+.hero-image-target {
     max-height: 100%;
     min-width: 100%;
     object-fit: cover;
@@ -106,3 +107,27 @@ img {
     padding: 8px;
     text-decoration: none;
   }
+
+  /* Information Section */
+
+.info-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 100px;
+}
+
+.info-card {
+    max-width: 200px;
+    border: #3882f6 solid;
+    border-radius: 7px;
+    padding: 16px;
+}
