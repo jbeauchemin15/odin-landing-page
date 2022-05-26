@@ -131,3 +131,27 @@ button {
     border-radius: 7px;
     padding: 16px;
 }
+
+/* Quote Section */
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+
+/* Call to Action Section */
+
+
+
+/* Footer Section */
+
+.footer {
+    height: 72px;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
